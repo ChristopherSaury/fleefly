@@ -36,6 +36,7 @@
     flex-direction: row;
     list-style-type: none;
     gap: 50px;
+    margin-bottom: 0;
 }
 #desktop .nav-link a{
     width: 100%;
