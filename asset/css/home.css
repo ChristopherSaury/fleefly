@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@600&display=swap');
+#home{
+    padding-top: 100px;
+    width: 100%;
+    min-height: 100vh;
+}
+#home .title-screen{
+    width: 100%;
+    min-height: 100vh;
+    background: url('../img/home/home-screen.jpg')
+    center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 4%;
+    padding-left: 4%;
+    
+}
+#home .title-screen .htitle-ct{
+    width: 500px;
+    height: 240px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #FFF;
+    font-family: 'Notable', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+#home .title-screen .htitle-ct h1{
+    font-size: 40px;
+}
+#home .title-screen .htitle-ct p{
+    font-size: 25px;
+}
+/******************************** HOME DESTINATIONS ****************************/
+#home .hdestination{
+    width: 100%;
+    height: 340px;
+    background-color: #FFFFFF;
+}
+#home .hdestination h2{
+    font-family: 'Notable', sans-serif;
+    font-size: 35px;
+    color: #000;
+}
+#home .hdestination .hform-ct{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4%;
+}
+#home .hform-ct form{
+    width: 80%;
+    height: 200px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; */
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 4%;
+    font-family: 'Livvic', sans-serif;
+}
+#home .hform-ct form input{
+    width: 100%;
+    height: 100px;
+    padding-left: 10%;
+    border-radius: 30px;
+    border: none;
+    color: #948F8F;
+}
+#home .hform-ct form button{
+    width: 100%;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    background-color: #4E5EE5;
+    border-radius: 30px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+#home .hform-ct form button:hover{
+    background-color: #6773d8;
+}
+/******************************** POPULAR DESTINATIONS ****************************/
+#home .hpdestination{
+    width: 100%;
+    min-height: 800px;
+    background-color: #D6DCDC;
+}
+#home .hpdestination h2{
+    font-family: 'Notable', sans-serif;
+    font-size: 35px;
+    color: #000;
+    padding-top: 2%;
+}
+#home .hpdestination .hpdcard-ct{
+    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+#home .hpdestination .hpdcard-ct .hcard{
+    width: 300px;
+    height: 600px;
+}
+#home .hpdestination .hcard .hcard-pic{
+    width: 100%;
+    height: 220px;
+    border-radius: 10px 10px 0 0;
+}
+#home .hpdestination .hcard .hcard-content{
+    width: 100%;
+    height: 380px;
+    background-color: #FFF;
+    padding: 4%;
+}
+#home .hpdestination .hcard .hcard-content .fa-star{
+    cursor: pointer;
+}
+.checked{
+    color: #FFAB01;
+}
+#home .hpdestination .hcard .hcardtitle{
+    font-family: 'Moul', cursive;
+    color: #000;
+    font-size: 20px;
+}
+#home .hpdestination .hcard .price{
+    font-family: 'Meera Inimai', sans-serif;
+    font-size: 15px;
+    color: #000;
+}
+#home .hpdestination .hcard .duration{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 4% 4% 4% 6%;
+    background-color: #F5F7F8;
+    border: #948F8F solid 1px;
+    color: #948F8F;
+    border-radius: 6px;
+}
+#home .hpdestination .hcard .text-hcard{
+    font-family: 'Meera Inimai', sans-serif;
+    font-size: 12px;
+    padding-top: 2%;
+}
+#home .hpdestination .hcard .hdetail{
+    width: 150px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    background-color: #4E5EE5;
+    color: #FFF;
+    text-decoration: none;
+    margin-bottom: 4%;
+    border-radius: 4px;
+    font-family: 'Jura', sans-serif;
+}
+#home .hpdestination .hcard .hdetail:hover{
+    background-color: #6672d9;
+}
+#home .bahia{
+    width: 100%;
+    height: 600px;
+    background: url('../img/home/salvador-de-bahia-filter.jpg') center center no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 4%;
+}
+#home .bahia .hbcard{
+    width: 400px;
+    height: 450px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    padding: 2% 4%;
+}
+#home .bahia .hbcard h3{
+    font-family: 'Moul', cursive;
+    color: #000;
+    font-size: 35px;
+}
+#home .bahia .hbcard .price{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-family: 'Meera Inimai', sans-serif;
+    font-size: 24px;
+    color: #C72D2D;
+}
+#home .bahia .hbcard .hbahia-text{
+    font-family: 'Meera Inimai', sans-serif;
+    color: #000;
+    font-size: 16px;
+}
+#home .bahia .hbcard .btn-wrapper{
+    width: 100%;
+    height: auto;
+}
+#home .bahia .hbcard .hbdetail{
+    width: 150px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    background-color: #4E5EE5;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 4px;
+    font-family: 'Jura', sans-serif;
+    margin-top: 6%;
+}
