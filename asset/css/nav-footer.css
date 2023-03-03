@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -62,4 +63,131 @@
 #desktop .login-btn:hover{
     background-color: #F6A62D;
     color: #FFF;
+}
+/****************************** FOOTER ***********************************/
+footer{
+    padding: 4% 2% 0 2%;
+    width: 100%;
+    height: 400px;
+    background-color: #061A3A;
+    color: #FFF;
+    display: grid;
+    grid-template-columns: 25% 20% 30% 25%;
+}
+footer .flogo{
+    width: 100%;
+    height: auto;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 26px;
+    margin-bottom: 4%;
+    display: flex;
+    flex-direction: column;
+}
+footer .fsite-plan{
+    width: 100%;
+    height: auto;
+    padding-left: 20%;
+}
+footer ul{
+    padding: 0%;
+    margin: 0%;
+}
+footer .fsite-plan ul li {
+    list-style-type: none;
+}
+footer .fsite-plan ul li a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+footer .fsite-plan ul li a:hover{
+    color: #F6A62D;
+}
+/****************** FOOTER GALLERY ********************************/
+footer h4{
+    font-family: 'Dela Gothic One', cursive;
+}
+footer .footer-gallery{
+    /* width: 250px; */
+    height: auto;
+}
+footer .footer-gallery .gallery-container{
+    width: 250px;
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+}
+footer .footer-gallery .gallery-container .gallery{
+    width: 90px;
+    height: 90px;
+}
+footer .footer-gallery .gallery-container .gallery a{
+    width: 90px;
+    height: 90px;
+}
+footer .footer-gallery .gallery img{
+    width: 90%;
+    height: 90%;
+    border-radius: 4px;
+    
+}
+/**************************** MODAL FOOTER  *******************************/
+footer .modal{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+}
+footer .modal.show{
+    display: initial;
+}
+footer .modal-content{
+    width: 60%;
+    margin: auto;
+    max-width: 1200px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+footer .modal-content img{
+    width: 100%;
+    height: 90%;
+}
+footer .modal .close{
+    color: white;
+    font-size: 32px;
+    position: fixed;
+    top: 10px;
+    right: 10%;
+    cursor: pointer;
+}
+/**************************** FOOTER CONTACT  ********************************************/
+footer .fcontact{
+    width: 100%;
+    height: auto;
+}
+footer .fcinfo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 8%;
+    gap: 10px;
+}
+footer .fcinfo div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+footer .fcinfo div p{
+    margin: 0%;
 }
