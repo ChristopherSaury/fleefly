@@ -132,6 +132,68 @@
         </div>
     </div>
     <!-- TESTIMONIALS -->
+    <div class="htestimonials">
+        <h2 class="text-center pt-4">Reviews & Testimonials</h2>
+            <div class="testimonials-section">
+                <!-- TESTIMONIAL 1 -->
+                <div class="hcard">
+                    <div class="rating">
+                        <span><i class="fa-solid fa-star checked"></i></span>
+                        <span><i class="fa-solid fa-star checked"></i></span>
+                        <span><i class="fa-solid fa-star checked"></i></span>
+                        <span><i class="fa-solid fa-star checked"></i></span>
+                    </div>
+                    <q>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent maximus tortor quis ipsum tincidunt, vel tristique metus fermentum.
+                    </q>
+                    <div class="author">
+                        <h4>John Doe</h4>
+                        <p>Traveler</p>
+                    </div>
+                    <div class="hauthor-photo">
+                        <img src="<?= Functions::asset('img/home/avatar1.jpg'); ?>" alt="">
+                    </div>
+                </div>
+                <!-- TESTIMONIAL 2 -->
+                <div class="hcard">
+                    <div class="rating">
+                        <span><i class="fa-solid fa-star checked"></i></span>
+                        <span><i class="fa-solid fa-star checked"></i></span>
+                        <span><i class="fa-solid fa-star checked"></i></span>
+                        <span><i class="fa-solid fa-star checked"></i></span>
+                    </div>
+                    <q>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent maximus tortor quis ipsum tincidunt, vel tristique metus fermentum.
+                    </q>
+                    <div class="author">
+                        <h4>Summer Stiedemann</h4>
+                        <p>Traveler</p>
+                    </div>
+                    <div class="hauthor-photo">
+                        <img src="<?= Functions::asset('img/home/avatar3.jpg'); ?>" alt="">
+                    </div>
+                </div>
+                <!-- TESTIMONIAL 3 -->
+                <div class="hcard">
+                    <div class="rating">
+                        <span><i class="fa-solid fa-star checked"></i></span>
+                        <span><i class="fa-solid fa-star checked"></i></span>
+                        <span><i class="fa-solid fa-star checked"></i></span>
+                        <span><i class="fa-solid fa-star checked"></i></span>
+                    </div>
+                    <q>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent maximus tortor quis ipsum tincidunt, vel tristique metus fermentum.
+                    </q>
+                    <div class="author">
+                        <h4>Robert Porter</h4>
+                        <p>Traveler</p>
+                    </div>
+                    <div class="hauthor-photo">
+                        <img src="<?= Functions::asset('img/home/avatar2.jpg'); ?>" alt="">
+                    </div>
+                </div>
+            </div>
+    </div>
 </section>
 
 <?php require Functions::view('components/footer.html');?>
