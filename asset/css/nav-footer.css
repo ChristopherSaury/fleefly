@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded&display=swap');
+/*****************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -66,11 +74,17 @@
 }
 /****************************** FOOTER ***********************************/
 footer{
-    padding: 4% 2% 0 2%;
     width: 100%;
     height: 400px;
+    display: flex;
+    flex-direction: column;
     background-color: #061A3A;
     color: #FFF;
+}
+footer .first-row{
+    padding: 4% 2% 0 2%;
+    width: 100%;
+    height: 350px;
     display: grid;
     grid-template-columns: 25% 20% 30% 25%;
 }
@@ -189,5 +203,17 @@ footer .fcinfo div{
     align-items: center;
 }
 footer .fcinfo div p{
+    margin: 0%;
+}
+/******************** FOOTER CREDITS ****************************/
+footer .credits{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+footer .credits p{
     margin: 0%;
 }
