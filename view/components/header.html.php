@@ -11,6 +11,8 @@
     <title><?php echo $title . ' - Fleefly' ?></title>
     <?php if(empty($_GET['route']) || $_GET['route'] === 'home'){ ?>
         <link rel="stylesheet" href="<?= Functions::asset('css/home.css'); ?>">
+    <?php }elseif($_GET['route'] === 'destinations'){ ?>
+        <link rel="stylesheet" href="<?= Functions::asset('css/destinations.css'); ?>">
     <?php } ?>
 </head>
 <body>
@@ -21,7 +23,7 @@
         </a>
         <ul class="nav-link">
             <li><a href="<?= Functions::url('home'); ?>">Home</a></li>
-            <li><a href="">Destinations</a></li>
+            <li><a href="<?= Functions::url('destinations'); ?>">Destinations</a></li>
             <li><a href="">Tour</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Blog</a></li>
