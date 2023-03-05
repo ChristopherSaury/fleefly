@@ -19,3 +19,8 @@ window.onload = () =>{
         })
     }
 }
+
+// DATE FOOTER  
+let yearData = document.getElementById('currentYear');
+let currentYear = new Date().getFullYear();
+yearData.innerHTML = currentYear;
