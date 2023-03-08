@@ -14,4 +14,8 @@ if(empty($route) || $route === 'home'){
     require Config::CONTROLLER_FILE . '/StaticController.php';
     $page = new StaticController;
     $page->destinations();
+}elseif($route === 'tours'){
+    require Config::CONTROLLER_FILE . '/StaticController.php';
+    $page = new StaticController;
+    $page->tours();
 }
