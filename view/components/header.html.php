@@ -13,6 +13,8 @@
         <link rel="stylesheet" href="<?= Functions::asset('css/home.css'); ?>">
     <?php }elseif($_GET['route'] === 'destinations'){ ?>
         <link rel="stylesheet" href="<?= Functions::asset('css/destinations.css'); ?>">
+    <?php }elseif($_GET['route'] === 'tours'){ ?>
+        <link rel="stylesheet" href="<?= Functions::asset('css/tours.css'); ?>">
     <?php } ?>
 </head>
 <body>
@@ -24,7 +26,7 @@
         <ul class="nav-link">
             <li><a href="<?= Functions::url('home'); ?>">Home</a></li>
             <li><a href="<?= Functions::url('destinations'); ?>">Destinations</a></li>
-            <li><a href="">Tour</a></li>
+            <li><a href="<?= Functions::url('tours'); ?>">Tours</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Blog</a></li>
             <li><a href="">Contact</a></li>
