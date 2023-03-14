@@ -15,7 +15,7 @@
                 <li><a href="<?= Functions::url('home'); ?>">Home</a></li>
                 <li><a href="<?= Functions::url('destinations'); ?>">Destinations</a></li>
                 <li><a href="<?= Functions::url('tours'); ?>">Tours</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="<?= Functions::url('about'); ?>">About</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Sign In</a></li>
                 <li><a href="#">Sign Up</a></li>

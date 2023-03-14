@@ -15,6 +15,10 @@
         <link rel="stylesheet" href="<?= Functions::asset('css/destinations.css'); ?>">
     <?php }elseif($_GET['route'] === 'tours'){ ?>
         <link rel="stylesheet" href="<?= Functions::asset('css/tours.css'); ?>">
+    <?php }elseif($_GET['route'] === 'about'){ ?>
+        <link rel="stylesheet" href="<?= Functions::asset('css/about.css'); ?>">
+    <?php }elseif($_GET['route'] === 'contact'){ ?>
+        <link rel="stylesheet" href="<?= Functions::asset('css/contact.css'); ?>">
     <?php } ?>
 </head>
 <body>
@@ -27,9 +31,9 @@
             <li><a href="<?= Functions::url('home'); ?>">Home</a></li>
             <li><a href="<?= Functions::url('destinations'); ?>">Destinations</a></li>
             <li><a href="<?= Functions::url('tours'); ?>">Tours</a></li>
-            <li><a href="">About</a></li>
+            <li><a href="<?= Functions::url('about'); ?>">About</a></li>
             <li><a href="">Blog</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="<?= Functions::url('contact') ;?>">Contact</a></li>
         </ul>
         <a class="login-btn" href="#">
         <i class="fa-regular fa-user"></i>

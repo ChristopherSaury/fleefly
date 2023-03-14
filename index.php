@@ -18,4 +18,12 @@ if(empty($route) || $route === 'home'){
     require Config::CONTROLLER_FILE . '/StaticController.php';
     $page = new StaticController;
     $page->tours();
+}elseif($route === 'about'){
+    require Config::CONTROLLER_FILE . '/StaticController.php';
+    $page = new StaticController;
+    $page->about();
+}elseif($route === 'contact'){
+    require Config::CONTROLLER_FILE . '/StaticController.php';
+    $page = new StaticController;
+    $page->contact();
 }

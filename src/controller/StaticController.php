@@ -13,4 +13,12 @@ class StaticController{
         $title = 'Tours';
         include Functions::view('tours.html');
     }
+    public function about(){
+        $title = 'About Us';
+        include Functions::view('about.html');
+    }
+    public function contact(){
+        $title = 'Contact';
+        include Functions::view('contact.html');
+    }
 }
