@@ -19,7 +19,7 @@
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Sign In</a></li>
                 <li><a href="#">Sign Up</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="<?= Functions::url('contact') ;?>">Contact</a></li>
             </ul>
         </div>
 
