@@ -22,6 +22,10 @@ if(empty($route) || $route === 'home'){
     require Config::CONTROLLER_FILE . '/StaticController.php';
     $page = new StaticController;
     $page->about();
+}elseif($route === 'blog'){
+    require Config::CONTROLLER_FILE . '/StaticController.php';
+    $page = new StaticController;
+    $page->blog();
 }elseif($route === 'contact'){
     require Config::CONTROLLER_FILE . '/StaticController.php';
     $page = new StaticController;
