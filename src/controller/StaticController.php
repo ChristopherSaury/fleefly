@@ -17,6 +17,10 @@ class StaticController{
         $title = 'About Us';
         include Functions::view('about.html');
     }
+    public function blog(){
+        $title = 'Blog';
+        include Functions::view('blog.html');
+    }
     public function contact(){
         $title = 'Contact';
         include Functions::view('contact.html');
