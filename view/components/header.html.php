@@ -21,6 +21,10 @@
         <link rel="stylesheet" href="<?= Functions::asset('css/contact.css'); ?>">
     <?php }elseif($_GET['route'] === 'blog'){ ?>
         <link rel="stylesheet" href="<?= Functions::asset('css/blog.css'); ?>">
+    <?php }elseif($_GET['route'] === 'signup'){ ?>
+        <link rel="stylesheet" href="<?= Functions::asset('css/signup.css'); ?>">
+    <?php }elseif($_GET['route'] === 'login'){ ?>
+        <link rel="stylesheet" href="<?= Functions::asset('css/login.css'); ?>">
     <?php } ?>
 </head>
 <body>
@@ -37,7 +41,7 @@
             <li><a href="<?= Functions::url('blog'); ?>">Blog</a></li>
             <li><a href="<?= Functions::url('contact') ;?>">Contact</a></li>
         </ul>
-        <a class="login-btn" href="#">
+        <a class="signup-btn" href="<?= Functions::url('signup'); ?>">
         <i class="fa-regular fa-user"></i>
         </a>
     </nav>
