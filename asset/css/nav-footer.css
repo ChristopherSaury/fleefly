@@ -11,6 +11,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lepcha&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -60,7 +61,7 @@
 #desktop .nav-link a:hover{
     color: #F6A62D;
 }
-#desktop .login-btn{
+#desktop .signup-btn{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -70,7 +71,7 @@
     color: #000;
     font-size: 30px;
 }
-#desktop .login-btn:hover{
+#desktop .signup-btn:hover{
     background-color: #F6A62D;
     color: #FFF;
 }

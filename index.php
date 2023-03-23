@@ -30,4 +30,12 @@ if(empty($route) || $route === 'home'){
     require Config::CONTROLLER_FILE . '/StaticController.php';
     $page = new StaticController;
     $page->contact();
+}elseif($route === 'signup'){
+    require Config::CONTROLLER_FILE . '/StaticController.php';
+    $page = new StaticController;
+    $page->signup();
+}elseif($route === 'login'){
+    require Config::CONTROLLER_FILE . '/StaticController.php';
+    $page = new StaticController;
+    $page->login();
 }

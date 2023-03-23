@@ -25,4 +25,12 @@ class StaticController{
         $title = 'Contact';
         include Functions::view('contact.html');
     }
+    public function signup(){
+        $title = 'Sign Up';
+        include Functions::view('signup.html');
+    }
+    public function login(){
+        $title = 'Login';
+        include Functions::view('login.html');
+    }
 }

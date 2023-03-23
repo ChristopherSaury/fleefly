@@ -1,0 +1,104 @@
+#signup{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 100px;
+}
+#signup .suScreen{
+    width: 100%;
+    height: 250px;
+    background: url('../img/sigup-login/lake-filter.jpg') center center no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+#signup .suScreen h2{
+    font-family: 'Moul', cursive;
+    font-size: 50px;
+}
+#signup .su-form-section{
+    width: 100%;
+    height: 100%;
+    padding: 10% 0 8% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#signup .su-form-section .su-title{
+    margin-bottom: 4%;
+    display: block;
+    width: 500px;
+    height: auto;
+    font-family: 'Moul', cursive;
+    font-size: 40px;
+}
+#signup .su-form-section #signup-form{
+    width: 600px;
+    height: auto;
+    box-shadow: 0px 15px 25px 0px rgb(0 0 0 / 40%);
+    padding: 4% 6% 6% 6%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#signup .su-form-section #signup-form .form-row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#signup .su-form-section #signup-form .form-row input{
+    width: 100%;
+    height: 55px;
+    border-radius: 4px;
+    border: 1px solid #e4e2e2;
+    padding: 2% 4%;
+}
+#signup .su-form-section #signup-form .form-row input:focus{
+    outline: none;
+  border-color: #FFAB01;
+  box-shadow: 0 0 3px #FFAB01;
+  -moz-box-shadow: 0 0 3px #FFAB01;
+  -webkit-box-shadow: 0 0 3px #FFAB01;
+}
+#signup .su-form-section #signup-form .form-row label{
+    color: #828482;
+}
+#signup .su-form-section #signup-form .btn-wrapper{
+    width: 100%;
+    height: auto;
+}
+#signup .su-form-section #signup-form .btn-wrapper button{
+    float: left;
+    background-color: #4E5EE5;
+    color: #FFF;
+    text-decoration: none;
+    display: grid;
+    place-items: center;
+    border-radius: 6px;
+    width: 150px;
+    height: 60px;
+    box-shadow: 0px 0px 20px #4E5EE5;
+    font-size: 18px;
+    font-family: 'Jura', sans-serif;
+    border: none;
+}
+#signup .su-form-section #signup-form .btn-wrapper button:hover{
+    background-color: #737fec;
+    box-shadow: 0px 0px 20px #737fec;
+}
+#signup .su-form-section #signup-form .extra-txt{
+    font-family: 'Noto Sans Lepcha', sans-serif;
+}
+#signup .su-form-section #signup-form a{
+    text-decoration: none;
+    color: #4E5EE5;
+}
+#signup .su-form-section #signup-form a:hover{
+    color: #737fec;
+}
+#signup .su-form-section #signup-form h3{
+    font-size: 24px;
+}
