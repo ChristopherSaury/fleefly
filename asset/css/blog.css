@@ -150,6 +150,13 @@
     border-radius: 16px;
     padding-left: 8%;
 }
+#blog .blog-section .filter #blog-search input:focus{
+    outline: none;
+    border-color: #FFAB01;
+    box-shadow: 0 0 3px #FFAB01;
+    -moz-box-shadow: 0 0 3px #FFAB01;
+    -webkit-box-shadow: 0 0 3px #FFAB01;
+}
 #blog .blog-section .filter #blog-search button{
     position: absolute;
     right: 8%;

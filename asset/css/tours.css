@@ -130,6 +130,13 @@
 #tours #tfilter .search input::placeholder{
     color: #828482;
 }
+#tours #tfilter .search input:focus{
+    outline: none;
+    border-color: #FFAB01;
+    box-shadow: 0 0 3px #FFAB01;
+    -moz-box-shadow: 0 0 3px #FFAB01;
+    -webkit-box-shadow: 0 0 3px #FFAB01;
+}
 #tours #tfilter .search .btn-inp{
     position: relative;
     width: 100%;

@@ -149,6 +149,13 @@
     border: none;
     border-radius: 6px;
 }
+#contact .ct-form-ct form .form-row input:focus{
+    outline: none;
+    border-color: #FFAB01;
+    box-shadow: 0 0 3px #FFAB01;
+    -moz-box-shadow: 0 0 3px #FFAB01;
+    -webkit-box-shadow: 0 0 3px #FFAB01;
+}
 #contact .ct-form-ct form .ct-txt-area{
     width: 100%;
     height: auto;
@@ -161,6 +168,13 @@
     border: none;
     padding: 4%;
     resize: none;
+}
+#contact .ct-form-ct form .ct-txt-area textarea:focus{
+    outline: none;
+    border-color: #FFAB01;
+    box-shadow: 0 0 3px #FFAB01;
+    -moz-box-shadow: 0 0 3px #FFAB01;
+    -webkit-box-shadow: 0 0 3px #FFAB01;
 }
 #contact .ct-form-ct form .btn-ct-sub{
     float: left;
@@ -175,4 +189,8 @@
     box-shadow: 0px 0px 20px #4E5EE5;
     font-size: 18px;
     font-family: 'Jura', sans-serif;
+}
+#contact .ct-form-ct form .btn-ct-sub:hover{
+    background-color: #737fec;
+    box-shadow: 0px 0px 20px #737fec;
 }
