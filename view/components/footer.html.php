@@ -70,7 +70,7 @@
 
     <div class="credits">
             <p style="text-align: center;">&copy; Christopher Saury <span id="currentYear"></span> / All rights reserved</p>
-            <p style="text-align: center;">Exhibition project with no commercial purpose</p>
+            <p style="text-align: center;">Project with no commercial purpose</p>
     </div>
 </footer>
 <script src="<?= Functions::asset('js/nav-footer.js'); ?>"></script>
