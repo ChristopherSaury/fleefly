@@ -30,6 +30,7 @@
 }
 #home .title-screen .htitle-ct p{
     font-size: 25px;
+    margin: 0;
 }
 /******************************** HOME DESTINATIONS ****************************/
 #home .hdestination{
@@ -41,6 +42,8 @@
     font-family: 'Notable', sans-serif;
     font-size: 35px;
     color: #000;
+    padding: 2% 4% 0 4%;
+    line-break: normal;
 }
 #home .hdestination .hform-ct{
     width: 100%;
@@ -96,7 +99,8 @@
     font-family: 'Notable', sans-serif;
     font-size: 35px;
     color: #000;
-    padding-top: 2%;
+    padding: 2% 4% 0 4%;
+    line-break: normal;
 }
 #home .hpdestination .hpdcard-ct{
     margin-top: 5%;
@@ -230,7 +234,7 @@
 /******************* TESTIMONIALS ************************/
 #home .htestimonials{
     width: 100%;
-    height: 700px;
+    min-height: 700px;
     background: url('../img/home/hamburg-filter.jpg') center center no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -239,6 +243,7 @@
     color: #FFF;
     font-family: 'Notable', sans-serif;
     font-size: 34px;
+    line-break: normal;
 }
 #home .htestimonials .testimonials-section{
     width: 100%;
@@ -298,4 +303,118 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
+}
+@media screen and (max-width: 992px) {
+    #home .title-screen{
+        min-height: 100vh;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #home .title-screen .htitle-ct{
+        padding: 0;
+        width: 600px;
+        justify-content: center;
+    }
+    #home .title-screen .htitle-ct p{
+        text-align: center;
+    }
+    #home .hdestination{
+        height: auto;
+        padding-bottom: 5%;
+    }
+    #home .hdestination h2{
+        padding-bottom: 5%;
+    }
+    #home .hpdestination{
+        padding-bottom: 5%;
+    }
+    #home .hpdestination .hpdcard-ct{
+        margin-top: 5%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    #home .htestimonials{
+        min-height: auto;
+    }
+    #home .htestimonials .testimonials-section{
+        padding-top: 10%;
+        padding-bottom: 10%;
+        gap: 60px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #home .title-screen{
+        display: flex;
+        justify-content: center;
+    }
+    #home .title-screen .htitle-ct{
+        width: 80%;
+    }
+    #home .hform-ct form{
+        width: 60%;
+        height: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        border-radius: 4px;
+        gap: 10px;
+        padding: 4%;
+        margin: 6% 0 6% 0;
+    }
+    #home .hform-ct form input{
+        height: 50px;
+        border-radius: 4px;
+        padding-left: 5%;
+    }
+    #home .hform-ct form button{
+        height: 50px;
+        border-radius: 4px;
+    }
+}
+@media screen and (max-width: 576px){
+    #home .htestimonials .testimonials-section{
+        padding-bottom: 15%;
+    }
+    #home .bahia{
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 440px){
+    #home .bahia .hbcard{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 340px){
+    #home .title-screen{
+        min-height: 72vh;
+    }
+    #home .hdestination h2,
+    #home .hpdestination h2,
+    #home .htestimonials h2{
+        font-size: 24px;
+    }
+    #home .htestimonials .testimonials-section{
+        padding-bottom: 30%;
+    }
+}
+@media screen and (max-width: 300px){
+    #home .hpdestination .hpdcard-ct .hcard{
+        width: 90%;
+        height: auto;
+    }
+    #home .bahia .hbcard{
+        width: 90%;
+    }
+    #home .bahia .hbcard h3{
+        font-size: 28px;
+    }
+    #home .htestimonials .hcard{
+        width: 90%;
+    }
 }

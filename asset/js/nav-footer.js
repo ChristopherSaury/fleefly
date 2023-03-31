@@ -19,6 +19,24 @@ window.onload = () =>{
         })
     }
 }
+//MOBILE NAV
+let bgMenu = document.querySelector('#mobile .fa-bars');
+let crossMenu = document.querySelector('#mobile .fa-xmark');
+let mobileLinks = document.querySelector('.mobile-links');
+
+function toggleMobileMenu(){
+    if(!bgMenu.classList.contains('open')){
+        bgMenu.classList.add('open');
+        bgMenu.style.display = 'none';
+        crossMenu.style.display = 'initial';
+        mobileLinks.style.display = 'flex';
+    }else if(bgMenu.classList.contains('open')){
+        bgMenu.classList.remove('open');
+        bgMenu.style.display = 'initial';
+        crossMenu.style.display = 'none';
+        mobileLinks.style.display = 'none';
+    }
+}
 
 // DATE FOOTER  
 let yearData = document.getElementById('currentYear');

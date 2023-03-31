@@ -9,7 +9,7 @@
     </div>
     <!-- HOME DESTINATIONS -->
     <div class="hdestination">
-        <h2 class="text-center mt-2">Find your destination</h2>
+        <h2 class="text-center">Find your destination</h2>
         <div class="hform-ct">
             <form action="#">
                 <input type="text" placeholder="Where to?">

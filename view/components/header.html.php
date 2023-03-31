@@ -45,4 +45,22 @@
         <i class="fa-regular fa-user"></i>
         </a>
     </nav>
+    <nav id="mobile">
+        <a class="logo" href="<?= Functions::url('home'); ?>">
+            Flee<span>Fly.</span>
+        </a>
+        <i onclick="toggleMobileMenu()" class="fa-solid fa-bars"></i>
+        <i onclick="toggleMobileMenu()" class="fa-solid fa-xmark"></i>
+    </nav>
+    <div class="mobile-links">
+        <ul>
+            <li><a href="<?= Functions::url('home'); ?>">Home</a></li>
+            <li><a href="<?= Functions::url('destinations'); ?>">Destinations</a></li>
+            <li><a href="<?= Functions::url('tours'); ?>">Tours</a></li>
+            <li><a href="<?= Functions::url('about'); ?>">About</a></li>
+            <li><a href="<?= Functions::url('blog'); ?>">Blog</a></li>
+            <li><a href="<?= Functions::url('contact') ;?>">Contact</a></li>
+            <li><a href="<?= Functions::url('signup'); ?>">Sign Up</a></li>
+        </ul>
+    </div>
     

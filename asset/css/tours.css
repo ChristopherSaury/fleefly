@@ -24,13 +24,14 @@
     height: 100%;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap-reverse;
+    gap: 20px;
 }
 #tours .card-section .main-section{
     width: 70%;
     height: auto;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -102,9 +103,12 @@
 #tours .card-section .tours-filter{
     width: 30%;
     height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 #tours #tfilter{
-    width: 100%;
+    width: 360px;
     height: auto;
 }
 #tours #tfilter .search{
@@ -206,4 +210,64 @@
     flex-direction: row;
     align-items: center;
     gap: 2px;
+}
+@media screen and (max-width: 1250px) {
+    #tours .card-section .main-section .hcard{
+        width: 45%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1120px){
+    #tours .card-section .main-section{
+        width: 100%;
+        padding: 0 10% 5% 10%;
+    }
+    #tours .card-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    #tours .card-section .main-section .hcard{
+        width: 400px;
+        height: auto;
+    }
+    #tours .card-section .tours-filter{
+        width: 100%;
+        padding: 0 10% 8% 10%;
+    }
+    #tours #tfilter{
+        width: 100%;
+        height: auto;
+    }
+    #tours #tfilter .search{
+        width: 100%;
+        height: auto;
+        padding: 6%;
+    }
+    #tours #tfilter .search h4{
+        margin-bottom: 4%;
+    }
+    #tours #tfilter2{
+        margin-top: 30px;
+        width: 100%;
+        gap: 30px;
+    }
+    #tours #tfilter2 .category-container{
+        width: 100%;
+        height: auto;
+        box-shadow: 0px 15px 25px 0px rgb(0 0 0 / 20%);
+        padding: 6%;
+    }
+    #tours #tfilter2 h4{
+        margin-bottom: 4%;
+    }
+    #tours #tfilter2 .p-range-container{
+        width: 100%;
+        height: auto;
+        padding: 4%;
+    }
+}
+@media screen and (max-width: 400px){
+    #tours .card-section .main-section .hcard{
+        width: 100%;
+    }
 }
